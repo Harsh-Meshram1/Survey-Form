@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">SURVEY FORM REGARDING HIGHER STUDIES</h1>
+    <p id="description">Please Fill This Survey Form To Know Your Education Plan</p>
+    <div class="Container">
+ <form id="survey-form">
+    <label id="name-label" for="name">Enter Your Full Name :</label>
+    <br>
+    <br>
+    <input type="text" id="name" name="name" placeholder="Your Name..." required>
+    <br>
+    <br>
+    <label id="email-label" for="email"> Enter Your Email ID :</label>
+    <br>
+    <br>
+    <input type="email" id="email" name="email" placeholder="Your Email..." required>
+    <br>
+    <br>
+    <label id= "number-label" for="number">Enter Your Age:</label>
+    <br>
+    <br>
+    <input type="number" id="number" name="number" min="1" max="25" placeholder="Your Age..." required>
+    <br>
+    <br>
+    <label id="name-label"></label>
+    <br>
+    <label for="Text" id="gender">Gender:</label>
+    <select id="dropdown" name="option">
+            <option value="" disabled selected>Select Your Gender</option>
+
+        <option value="option">Male</option>
+        <option vlaue="option2">Female</option>
+        <option value="option3">Not to Say</option>
+    </select>
+    <br>
+    <br>
+    <label for="text">Are You Want To Study Outside Of India</label>
+    <br>
+
+    <input type="radio" id="yes" name="study" value="yes">
+    <label for="yes">Yes</label><br>
+
+    <input type="radio" id="No" name="study" value="No">
+    <label for="No">No</label><br>
+    <br>
+    <br>
+
+        <label for="text">Select Course You Want To Study</label>
+    <br>
+
+        <input type="radio" id="Btech" name="study" value="Btech">
+    <label for="Btech">Btech</label><br>
+        <input type="radio" id="Mtech" name="study" value="Mtech">
+    <label for="Mtech">Mtech</label><br>
+        <input type="radio" id="MBA" name="study" value="MBA">
+    <label for="MBA">MBA</label><br>
+        <input type="radio" id="PHD" name="study" value="PHD">
+    <label for="PHD">PHD</label><br>
+            <input type="radio" id="MBBS" name="study" value="MBBS">
+    <label for="MBBS">MBBS</label><br>
+            <input type="radio" id="MCA" name="study" value="MCA">
+    <label for="MCA">MCA</label><br>
+                <input type="radio" id="BCA" name="study" value="BCA">
+    <label for="BCA">BCA</label><br>
+<br>
+<br>
+
+
+    
+    <label for="text">Choose Computer Language Or Technology You Want to Study along with  Your Studies</label>
+    <br>
+    <input type="checkbox" id="C Programming" name="subject" value="C Programming">
+    <label for="C Programming">C Programming</label>
+    <br>
+    <input type="checkbox" id="C++ Programming" name="subject" value="C++ Programming">
+    <label for="C++ Programming">C++ Programming</label>
+    <br>
+    <input type="checkbox" id="Java Programming" name="subject" value="Java Programming">
+    <label for="Java Programming">Java Programming</label>
+    <br>
+    <input type="checkbox" id="Python Programming" name="subject" value="Python Programming">
+    <label for="Python Programming">Python Programming</label>
+    <br>
+    <input type="checkbox" id="R Programming" name="subject" value="R Programming">
+    <label for="R Programming">R Programming</label>
+    <br>
+    <input type="checkbox" id="Machine Learning" name="subject" value="Machine Learning">
+    <label for="Machine Learning">Machine Learning</label>
+    <br>
+    <input type="checkbox" id="App Development" name="subject" value="App Development">
+    <label for="App Development">App Development</label>
+    <br>
+    <input type="checkbox" id="SalesForce" name="subject" value="SalesForce">
+    <label for="SalesForce">SalesForce</label>
+    <br>
+    <input type="checkbox" id="Cloud Computing" name="subject" value="Cloud   Computing">
+    <label for="Cloud Computing">Cloud Computing</label>
+    <br>
+    <input type="checkbox" id="Power BI" name="subject" value="Power BI">
+    <label for="Power BI">Power BI</label>
+    <br>
+    <input type="checkbox" id="Devops" name="subject" value="Devops">
+    <label for="Devops">Devops</label>
+    <br>
+    <input type="checkbox" id="Full Stack Developer" name="subject" value="Full Stack Developer">
+    <label for="Full Stack Developer">Full Stack Developer</label>
+    <br>
+    <input type="checkbox" id="SQL" name="subject" value="SQL">
+    <label for="SQL">SQL</label>
+    <br>
+    <input type="checkbox" id=".Net Developer" name="subject" value=".Net Developer">
+    <label for=".Net Developer">.Net Developer</label>
+    <br>
+    <br>
+
+    <label for="text">Your Doubts / Suggestions</label>
+    <br>
+    <br>
+<textarea id="text" rows="5" cols="50" placeholder="Enter your Doubts or  suggestion here..."></textarea><br><br>
+    <br>
+    <br>
+<button id="submit">Submit</button>
+ </form>
+ </div>
+</body>
+</html>
